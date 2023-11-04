@@ -14,6 +14,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 
+import com.qa.opencart.exception.FrameworkException;
+
 public class DriverFactory {
 	public WebDriver driver;
 	public Properties prop;
@@ -25,6 +27,7 @@ public class DriverFactory {
 	/**
 	 * this method is initializing the driver on the basis of given browser name
 	 * @param browserName
+	 * 
 	 * @return this returns the driver
 	 */
 	public WebDriver initDriver(Properties prop) {
@@ -49,6 +52,7 @@ public class DriverFactory {
 		}
 		else {
 			System.out.println("please pass the right browser..." + browserName);
+			throw new FrameworkException("NO BROWSER FOUND EXCEPTION....");
 		}
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
@@ -100,7 +104,8 @@ public class DriverFactory {
 				break;
 				default:
 					System.out.println("wrong env is passed.....No need to run the test cases...");
-					break;
+					throw new FrameworkException("WRONG ENV IS PASSED...");
+					//break;
 			
 			}
 		}
