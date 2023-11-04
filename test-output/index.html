@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Opencart App Test Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Opencart_App_Test_Regression_Suite" class="navigator-link ">
+                    <span>C:\Users\kanha\eclipse-workspace\Nov2022POMSeries\src\test\resources\testrunners\testng_regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Opencart_App_Test_Regression_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Opencart_App_Test_Regression_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Opencart_App_Test_Regression_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Opencart_App_Test_Regression_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Opencart_App_Test_Regression_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Opencart_App_Test_Regression_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 1 failed,  3 skipped,  17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" class="hide-methods failed suite-Opencart_App_Test_Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-Opencart_App_Test_Regression_Suite -->
+                      <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" class="show-methods failed suite-Opencart_App_Test_Regression_Suite"> (show)</a> <!-- show-methods failed suite-Opencart_App_Test_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Opencart_App_Test_Regression_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Opencart_App_Test_Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" class="hide-methods skipped suite-Opencart_App_Test_Regression_Suite"> (hide)</a> <!-- hide-methods skipped suite-Opencart_App_Test_Regression_Suite -->
+                      <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" class="show-methods skipped suite-Opencart_App_Test_Regression_Suite"> (show)</a> <!-- show-methods skipped suite-Opencart_App_Test_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Opencart_App_Test_Regression_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Opencart_App_Test_Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" class="hide-methods passed suite-Opencart_App_Test_Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-Opencart_App_Test_Regression_Suite -->
+                      <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" class="show-methods passed suite-Opencart_App_Test_Regression_Suite"> (show)</a> <!-- show-methods passed suite-Opencart_App_Test_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Opencart_App_Test_Regression_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="accPageHeadersCountTest">accPageHeadersCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="accPageHeadersValueTest">accPageHeadersValueTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="accPageTitleTest">accPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="accPageURLTest">accPageURLTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="forgotPWDLinkExistTest">forgotPWDLinkExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="isLogoutLinkExistTest">isLogoutLinkExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageURLTest">loginPageURLTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="searchProductCountTest(iMac)">searchProductCountTest(iMac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="searchProductCountTest(Samsung)">searchProductCountTest(Samsung)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="searchProductCountTest(Macbook)">searchProductCountTest(Macbook)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="searchProductCountTest(Apple)">searchProductCountTest(Apple)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="searchProductTest(iMac, iMac)">searchProductTest(iMac, iMac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="searchProductTest(Samsung, Samsung SyncMaster 941BW)">searchProductTest(Samsung, Samsung SyncMaster 941BW)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="searchProductTest(Macbook, MacBook Pro)">searchProductTest(Macbook, MacBook Pro)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="searchProductTest(Macbook, MacBook Air)">searchProductTest(Macbook, MacBook Air)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="searchProductTest(Samsung, Samsung Galaxy Tab 10.1)">searchProductTest(Samsung, Samsung Galaxy Tab 10.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Opencart_App_Test_Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Opencart_App_Test_Regression_Suite" class="panel Opencart_App_Test_Regression_Suite">
+          <div class="suite-Opencart_App_Test_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.opencart.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be &quot;Account Login11&quot;. Current title: &quot;Account Login&quot; (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\kanha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54405}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54405/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59a157d183520585807e2737b887f834
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.qa.opencart.utils.ElementUtil.waitForTitleIssAndFetch(ElementUtil.java:211)
+	at com.qa.opencart.pages.LoginPage.getLoginPageTitle(LoginPage.java:31)
+	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Opencart_App_Test_Regression_Suite-class-failed -->
+          <div class="suite-Opencart_App_Test_Regression_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.opencart.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be &quot;Account Login11&quot;. Current title: &quot;Account Login&quot; (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\kanha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54405}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54405/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59a157d183520585807e2737b887f834
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.qa.opencart.utils.ElementUtil.waitForTitleIssAndFetch(ElementUtil.java:211)
+	at com.qa.opencart.pages.LoginPage.getLoginPageTitle(LoginPage.java:31)
+	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be &quot;Account Login11&quot;. Current title: &quot;Account Login&quot; (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\kanha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54405}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54405/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59a157d183520585807e2737b887f834
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.qa.opencart.utils.ElementUtil.waitForTitleIssAndFetch(ElementUtil.java:211)
+	at com.qa.opencart.pages.LoginPage.getLoginPageTitle(LoginPage.java:31)
+	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be &quot;Account Login11&quot;. Current title: &quot;Account Login&quot; (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\kanha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54405}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54405/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59a157d183520585807e2737b887f834
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.qa.opencart.utils.ElementUtil.waitForTitleIssAndFetch(ElementUtil.java:211)
+	at com.qa.opencart.pages.LoginPage.getLoginPageTitle(LoginPage.java:31)
+	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Opencart_App_Test_Regression_Suite-class-skipped -->
+          <div class="suite-Opencart_App_Test_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.opencart.tests.AccountsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accPageHeadersCountTest">
+                  </a> <!-- accPageHeadersCountTest -->
+                  <span class="method-name">accPageHeadersCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accPageHeadersValueTest">
+                  </a> <!-- accPageHeadersValueTest -->
+                  <span class="method-name">accPageHeadersValueTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accPageTitleTest">
+                  </a> <!-- accPageTitleTest -->
+                  <span class="method-name">accPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accPageURLTest">
+                  </a> <!-- accPageURLTest -->
+                  <span class="method-name">accPageURLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isLogoutLinkExistTest">
+                  </a> <!-- isLogoutLinkExistTest -->
+                  <span class="method-name">isLogoutLinkExistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductCountTest(iMac)">
+                  </a> <!-- searchProductCountTest(iMac) -->
+                  <span class="method-name">searchProductCountTest</span>
+                  <span class="parameters">(iMac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductCountTest(Samsung)">
+                  </a> <!-- searchProductCountTest(Samsung) -->
+                  <span class="method-name">searchProductCountTest</span>
+                  <span class="parameters">(Samsung)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductCountTest(Macbook)">
+                  </a> <!-- searchProductCountTest(Macbook) -->
+                  <span class="method-name">searchProductCountTest</span>
+                  <span class="parameters">(Macbook)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductCountTest(Apple)">
+                  </a> <!-- searchProductCountTest(Apple) -->
+                  <span class="method-name">searchProductCountTest</span>
+                  <span class="parameters">(Apple)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductTest(iMac, iMac)">
+                  </a> <!-- searchProductTest(iMac, iMac) -->
+                  <span class="method-name">searchProductTest</span>
+                  <span class="parameters">(iMac, iMac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductTest(Samsung, Samsung SyncMaster 941BW)">
+                  </a> <!-- searchProductTest(Samsung, Samsung SyncMaster 941BW) -->
+                  <span class="method-name">searchProductTest</span>
+                  <span class="parameters">(Samsung, Samsung SyncMaster 941BW)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductTest(Macbook, MacBook Pro)">
+                  </a> <!-- searchProductTest(Macbook, MacBook Pro) -->
+                  <span class="method-name">searchProductTest</span>
+                  <span class="parameters">(Macbook, MacBook Pro)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductTest(Macbook, MacBook Air)">
+                  </a> <!-- searchProductTest(Macbook, MacBook Air) -->
+                  <span class="method-name">searchProductTest</span>
+                  <span class="parameters">(Macbook, MacBook Air)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductTest(Samsung, Samsung Galaxy Tab 10.1)">
+                  </a> <!-- searchProductTest(Samsung, Samsung Galaxy Tab 10.1) -->
+                  <span class="method-name">searchProductTest</span>
+                  <span class="parameters">(Samsung, Samsung Galaxy Tab 10.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Opencart_App_Test_Regression_Suite-class-passed -->
+          <div class="suite-Opencart_App_Test_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.opencart.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPWDLinkExistTest">
+                  </a> <!-- forgotPWDLinkExistTest -->
+                  <span class="method-name">forgotPWDLinkExistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageURLTest">
+                  </a> <!-- loginPageURLTest -->
+                  <span class="method-name">loginPageURLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Opencart_App_Test_Regression_Suite-class-passed -->
+        </div> <!-- panel Opencart_App_Test_Regression_Suite -->
+        <div panel-name="test-xml-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kanha\eclipse-workspace\Nov2022POMSeries\src\test\resources\testrunners\testng_regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;Opencart App Test Regression Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;4&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.opencart.listeners.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.opencart.listeners.TestAllureListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.opencart.listeners.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;Login Page Test&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.opencart.tests.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Page Test --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;Accounts Page Test&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.opencart.tests.AccountsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Accounts Page Test --&gt;
+&lt;/suite&gt; &lt;!-- Opencart App Test Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Opencart App Test Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Accounts Page Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Opencart App Test Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Opencart App Test Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Opencart_App_Test_Regression_Suite');
+function tableData_Opencart_App_Test_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchProductTest')
+data.setCell(0, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(0, 3, 6898);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchProductTest')
+data.setCell(1, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(1, 3, 5712);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginPageTitleTest')
+data.setCell(2, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(2, 3, 5521);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginPageTitleTest')
+data.setCell(3, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(3, 3, 5176);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginPageTitleTest')
+data.setCell(4, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(4, 3, 5169);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginPageTitleTest')
+data.setCell(5, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(5, 3, 5166);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchProductTest')
+data.setCell(6, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(6, 3, 4770);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchProductTest')
+data.setCell(7, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(7, 3, 4435);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchProductTest')
+data.setCell(8, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(8, 3, 4378);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchProductCountTest')
+data.setCell(9, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(9, 3, 3548);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'searchProductCountTest')
+data.setCell(10, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(10, 3, 3529);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchProductCountTest')
+data.setCell(11, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(11, 3, 3394);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchProductCountTest')
+data.setCell(12, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(12, 3, 3376);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginTest')
+data.setCell(13, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(13, 3, 3256);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'accPageHeadersCountTest')
+data.setCell(14, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(14, 3, 133);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'accPageHeadersValueTest')
+data.setCell(15, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(15, 3, 97);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'forgotPWDLinkExistTest')
+data.setCell(16, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(16, 3, 75);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'isLogoutLinkExistTest')
+data.setCell(17, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(17, 3, 38);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'accPageURLTest')
+data.setCell(18, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(18, 3, 25);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'accPageTitleTest')
+data.setCell(19, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(19, 3, 11);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginPageURLTest')
+data.setCell(20, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(20, 3, 8);
+window.suiteTableData['Opencart_App_Test_Regression_Suite']= { tableData: data, tableDiv: 'times-div-Opencart_App_Test_Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Opencart_App_Test_Regression_Suite">
+              </div> <!-- times-div-Opencart_App_Test_Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Opencart App Test Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">4502 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">accPageSetup</span>
+                <span class="method-start">6270 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">accPageHeadersCountTest</span>
+                <span class="method-start">9780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accPageHeadersValueTest</span>
+                <span class="method-start">10012 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">10164 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">accPageTitleTest</span>
+                <span class="method-start">10164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accPageURLTest</span>
+                <span class="method-start">10175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isLogoutLinkExistTest</span>
+                <span class="method-start">10200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchProductCountTest(Macbook)</span>
+                <span class="method-start">10244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchProductCountTest(iMac)</span>
+                <span class="method-start">13797 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">15507 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchProductCountTest(Apple)</span>
+                <span class="method-start">17193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">20838 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchProductCountTest(Samsung)</span>
+                <span class="method-start">20839 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchProductTest(Macbook, MacBook Pro)</span>
+                <span class="method-start">24215 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageURLTest</span>
+                <span class="method-start">26322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forgotPWDLinkExistTest</span>
+                <span class="method-start">26330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">26405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29679 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchProductTest(Macbook, MacBook Air)</span>
+                <span class="method-start">31117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchProductTest(iMac, iMac)</span>
+                <span class="method-start">35555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchProductTest(Samsung, Samsung SyncMaster 941BW)</span>
+                <span class="method-start">40328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchProductTest(Samsung, Samsung Galaxy Tab 10.1)</span>
+                <span class="method-start">46043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50427 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

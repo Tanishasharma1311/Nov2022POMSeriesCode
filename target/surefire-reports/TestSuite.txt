@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 5.596 s <<< FAILURE! - in TestSuite
+setup(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 3.653 s  <<< FAILURE!
+java.lang.NullPointerException: inStream parameter is null
+
+setup(com.qa.opencart.tests.AccountsPageTest)  Time elapsed: 3.655 s  <<< FAILURE!
+java.lang.NullPointerException: inStream parameter is null
+
