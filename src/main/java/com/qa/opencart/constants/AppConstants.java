@@ -12,6 +12,7 @@ public class AppConstants {
 	public static final String  LOGIN_PAGE__URL_FRACTION_VALUE = "route=account/login";
 	
 	
+	
 	public static final String ACCOUNTS_PAGE_TITLE_VALUE = "My Account";
 	public static final String  ACCOUNTS_PAGE__URL_FRACTION_VALUE = "route=account/account";
 	public static final int ACCOUNTS_PAGE_HEADERS_COUNT = 4;
