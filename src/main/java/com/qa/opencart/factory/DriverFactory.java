@@ -25,9 +25,8 @@ public class DriverFactory {
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 	
 	/**
-	 * this method is initializing the driver on the basis of given browser name
+	 * this method is initializing the driver on the basis of given browser name.
 	 * @param browserName
-	 * 
 	 * @return this returns the driver
 	 */
 	public WebDriver initDriver(Properties prop) {
